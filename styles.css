@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "times roman"
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background: black;
+    color: white;
+}
+
+html{
+    font-size: 60%;
+}
+
+.container{
+    margin: 5px 50px 50px 50px;
+    padding: 5px 50px 50px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside p{
+    margin: 25px 25px 25px 25px;
+    font-weight: 300;
+}
+
+.todolist{
+    display: grid;
+    grid-template-columns: 350px 250px 150px;
+    column-gap: 15px;
+    row-gap: 10px;
+}
+
+.output{
+    display: grid;
+    grid-template-columns: 350px 250px 150px;
+    column-gap: 15px;
+    row-gap: 10px;
+}
+
+input{
+    margin: 25px 25px 25px 25px;
+    padding: 10px 10px 10px 10px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(31, 31, 31);
+    color: rgb(255, 255, 255);
+}
+
+.inside .add-btn{
+    margin: 25px 25px 25px 25px;
+    padding: 10px 10px 10px 10px;
+    height: 40px;
+    width: 100px;
+    background-color: green;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.output p{
+    margin: 25px 25px 25px 25px;
+    padding: 10px 10px 10px 10px;
+    font-size: 25px;
+}
+
+.para{
+    font-size: 50px;
+}
+
+.delete-btn{
+    margin: 25px 25px 25px 25px;
+    padding: 10px 10px 10px 10px;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(255, 0, 0);
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+}
